@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./css/main.css">
+
+   <link rel="stylesheet" type="text/css" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+   <link rel="stylesheet" type="text/css" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+   <link rel="stylesheet" href="./magnific-popup/dist/magnific-popup.css"> 
+</head>
+
+<body>
+
+
+
+<div class="body-wrapper ">
+
+      <!--HEADER-->
+      <header id="header" class="header">
+         <div class="_conteiner">
+            <div class="_inner">
+               <a href="./index.html" class="logo-link">
+                  <img src="./img/logo-header.svg" alt="" class="header__logo">
+               </a>
+               <div class="header__menu">
+                  <button type="button" class="header__menu-btn">Buy now</button>
+                  <div class="header__menu-cart">
+                     <div class="header__menu-cart-text">Cart</div>
+                     <div class="header__menu-cart-amount"><span>1</span></div>
+                  </div>
+               </div>
+               <div class="header__burger-menu">
+                  <div class="burger-menu__icon">
+                     <div class="burger-menu__bcg">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                     </div>
+                     <div class="burger-menu__bcg burger-menu__bcg-2">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                     </div>
+                  </div>  
+               </div>
+            </div>
+         </div>
+      </header>
+   
+      
+      <!--MAIN-->
+    <main class="product-page">
+      <div class="product-page__baner">
+         <div class="_conteiner">
+            <div class="_inner">
+               <img src="./img/prod-logo.svg" alt="" class="product-page__baner-logo _anim-items _anim-no-hide">
+               <div class="product-page__baner-title _anim-items _anim-no-hide">Classic</div>
+
+               <div class="product-page__baner-price _anim-items _anim-no-hide">From $129</div>
+               <div class="product-page__baner-btn-block _anim-items _anim-no-hide">
+                  <button type="button" class="product__btn">Add to cart</button>
+                  <div class="product__amount">
+                     <button type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                     <input  type="number" min="0" max="10000" value="0" step="1" readonly  class="raz">
+                     <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                  </div>
+               </div> 
+               <div class="product-page__baner-wrapper">
+                  <img src="./img/prod-baner-img.png" alt="" class="product-page__baner-image _anim-items _anim-no-hide">
+                  <div class="product-page__baner-content">
+                     <div class="product-page__baner-content--title _anim-items _anim-no-hide">Features</div>
+                     <ul class="product-page__baner-content--list _anim-items _anim-no-hide">
+                        <li class="product-page__baner-content--item">
+                           <img src="./img/prod-icon-1.svg" alt="" class="product-page__baner-content--icon">
+                           <div class="product-page__baner-content--name">Clears the Air</div>
+                           <div class="product-page__baner-content--text">Engineered to perform better than any 
+                              other filter system and can clear a typical 
+                              car cabin or small office space/cubicle of 
+                              99.9% of airborne contaminants.</div>
+                        </li>
+                        <li class="product-page__baner-content--item ">
+                           <img src="./img/prod-icon-2.svg" alt="" class="product-page__baner-content--icon">
+                           <div class="product-page__baner-content--name">Odor Neutralization</div>
+                           <div class="product-page__baner-content--text">Unique filter eliminates unwanted scents before the air pass through and distribute a fragrance of choice.</div>
+                        </li>
+                        <li class="product-page__baner-content--item">
+                           <img src="./img/prod-icon-3.svg" alt="" class="product-page__baner-content--icon">
+                           <div class="product-page__baner-content--name">Eliminates Germs</div>
+                           <div class="product-page__baner-content--text">Our technology, embedded in the filter’s fibers, destroys virus’ membranes with 99% efficiency as proven clinically under lab conditions and approved by the EPA.</div>
+                        </li>
+                        <li class="product-page__baner-content--item">
+                           <img src="./img/prod-icon-4.svg" alt="" class="product-page__baner-content--icon">
+                           <div class="product-page__baner-content--name">Actively Freshens</div>
+                           <div class="product-page__baner-content--text">A collection of specialized scent capsules is available to pick and choose from. Decide how to refresh your space with a simple, interchangeable design.</div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>          
+            </div>
+         </div>
+      </div>
+
+      <div class="product-page__about">
+         <div class="_conteiner">
+            <div class="_inner">
+               <div class="product-page__about-content">
+                  <div class="product-page__about-title _anim-items _anim-no-hide">Specs</div>
+                  <div class="product-page__about-text _anim-items _anim-no-hide">Nominal voltage – 12V (5.5*2.1 round DC input)
+                     <br>Nominal current – 2.8A
+                     <br>DC Brushless motor – 20000 H life span, 9K RPM
+                     <br>Fan ability – 83 CFM
+                     <br>Seven different fan speeds to choose from:
+                     <br>1-2 – Perfume and Refresh
+                     <br>3-5 – Active Filtration
+                     <br>6-7 – Extreme pollution 
+                     <br>Noise levels – 25-60 dBa
+                     <br>Optimal operation – 90-110ft3 interior (2.55-3.11m3)
+                     <br>6 replacement of air in avg. car interior per hour
+                     <br>CADR for PM2.5 – 15 CFM [25.4m3/h]
+                     <br>Height – 200mm / 8”
+                     <br>Diameter – 80mm / 3.2”</div>
+               </div>
+               <div class="product-page__about-media _anim-items _anim-no-hide">
+                  <img src="./img/prod-about-fon.png" alt="" class="product-page__about-fon">
+                  <img src="./img/prod-about-img.png" alt="" class="product-page__about-img">
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="product-page__package">
+         <div class="_conteiner">
+            <div class="_inner">
+               <div class="product-page__package-content">
+                  <div class="product-page__package-title _anim-items _anim-no-hide">What’s in the
+                     Package?</div>
+                  <div class="product-page__package-text _anim-items _anim-no-hide">Vootto Classic Air Purifier Unit
+                     <br>One Active Shield Air Filter capsule
+                     <br>One Scent capsule
+                     <br>One of 2 power supply adapter:
+                     <br>Car Adapter with 2 USB outputs and a DC 12V cable
+                     <br>Home Adapter with a DC 12V cable</div>
+                  <ul class="product-page__package-list">
+                     <li class="product-page__package-item _anim-items _anim-no-hide">
+                        <div class="product-page__package-name">Certifications</div>
+                        <div class="product-page__package-about">FCC, CE, EPA approved Antimicrobial Filter</div>
+                     </li>
+                     <li class="product-page__package-item _anim-items _anim-no-hide">
+                        <div class="product-page__package-name">Manufacturer</div>
+                        <div class="product-page__package-about">ISO 9001 quality standard factory.</div>
+                     </li>
+                     <li class="product-page__package-item _anim-items _anim-no-hide">
+                        <div class="product-page__package-name">Flammability rate</div>
+                        <div class="product-page__package-about">UL-94 V-0 (for all parts)</div>
+                     </li>
+                     <li class="product-page__package-item _anim-items _anim-no-hide">
+                        <div class="product-page__package-name">Operation temperature</div>
+                        <div class="product-page__package-about">-20 <=> +80°C / -4 <=> +176°F</div>
+                     </li>
+                  </ul>
+               </div>
+                  <img src="./img/prod-package-img.png" alt="" class="product-page__package-img _anim-items _anim-no-hide">
+            </div>
+         </div>
+      </div>
+
+   </main>
+      <!--MAIN-->
+
+           <!--FOOTER-->
+
+      <div class="refresh">
+         <div class="_conteiner">
+            <div class="_inner">
+               <div class="product__title  _anim-items _anim-no-hide">Refresh Your Airspace</div>
+               <ul class="product__list">
+                  <li class="product__item  _anim-items _anim-no-hide parallax" data-speed="-1">
+                     <div class="product__image">
+                        <img src="./img/product-img-3.png" alt="">
+                     </div>
+                     <div class="product__name">Morning Shine
+                        <br>Vanilla Scent Capsule</div>
+                     <div class="product__price">From $129</div>
+                     <button type="button" class="product__btn">Add to cart</button>
+                     <div class="product__amount">
+                        <button type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                        <input  type="number" min="0" max="10000" value="0" step="1" readonly  class="raz">
+                        <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                     </div> 
+                     <div class="product__info">
+                        <div class="product__info-item">Start the day right with the focusing
+                           effect of Morning Shine.</div>
+                     </div> 
+                  </li>
+                  <li class="product__item  _anim-items _anim-no-hide parallax" data-speed="-1">
+                     <div class="product__image">
+                        <img src="./img/product-img-4.png" alt="">
+                     </div>
+                     <div class="product__name">Sunrise - New Car
+                        <br>Scent Capsule</div>
+                     <div class="product__price">From $129</div>
+                     <button type="button" class="product__btn">Add to cart</button>
+                     <div class="product__amount">
+                        <button type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                        <input  type="number" min="0" max="10000" value="0" step="1" readonly  class="raz">
+                        <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                     </div> 
+                     <div class="product__info">
+                        <div class="product__info-item">Brighten and Uplift your space
+                           with the optimistic Sunrise scent.</div>
+                     </div> 
+                  </li>
+                  <li class="product__item  _anim-items _anim-no-hide parallax" data-speed="-1">
+                     <div class="product__image">
+                        <img src="./img/product-img-5.png" alt="">
+                     </div>
+                     <div class="product__name">Midnight Lavender
+                        <br>Scent Capsule</div>
+                     <div class="product__price">From $129</div>
+                     <button type="button" class="product__btn">Add to cart</button>
+                     <div class="product__amount">
+                        <button type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                        <input  type="number" min="0" max="10000" value="0" step="1" readonly  class="raz">
+                        <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                     </div> 
+                     <div class="product__info">
+                        <div class="product__info-item">Relax and Unwind with the sweet
+                           calming effect of Midnight Lavender.</div>
+                     </div> 
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="pack">
+         <div class="_conteiner">
+            <div class="_inner">
+               <div class="pack__wrapper  _anim-items _anim-no-hide">
+                  <div class="pack__start">
+                     <div class="pack__inner">
+                        <div class="pack__content">
+                           <div class="pack__title _anim-items _anim-no-hide">Starter Pack
+                              <br>6 Months' Use</div>
+                           <div class="pack__postTitle _anim-items _anim-no-hide">3 Vootto scent capsules to allow you to use the device freely for the duration of 6 months.</div>
+                           <ul class="pack__about-list _anim-items _anim-no-hide">
+                              <li class="pack__about-item">
+                                 <div class="pack__about-text">Morning Shine
+                                    <br>Vanilla Scent Capsule</div>
+                              </li>
+                              <li class="pack__about-item">
+                                 <div class="pack__about-text">Sunrise - New Car
+                                    <br>Scent Capsule</div>
+                              </li>
+                              <li class="pack__about-item">
+                                 <div class="pack__about-text">Midnight Lavender
+                                    <br>Scent Capsule</div>
+                              </li>
+                           </ul>
+                           <div class="pack__note _anim-items _anim-no-hide">* We recommend switching scent capsules anywhere between 1 to 2 months</div>
+                           <div class="pack__price _anim-items _anim-no-hide">From $129</div>
+                           <div class="pack__btn-block _anim-items _anim-no-hide">
+                              <button type="button" class="pack__btn">Add to cart</button>
+                              <div class="pack__amount">
+                                 <button type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                                 <input  type="number" min="0" max="10000" value="0" step="1" readonly  class="raz">
+                                 <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                              </div>
+                           </div>
+                        </div>
+                        <img src="./img/pack-img-1.png" alt="" class="pack__image _anim-items _anim-no-hide">
+                     </div>
+                  </div>
+                  <div class="pack__pro">
+                     <div class="pack__inner">
+                        <div class="pack__content">
+                           <div class="pack__title  _anim-items _anim-no-hide">Pro Pack
+                              <br>Yearly</div>
+                           <div class="pack__postTitle  _anim-items _anim-no-hide">6 Vootto scent capsules and 1 extra Active Shield filter capsule to allow you to use the device freely for the duration of a whole year*</div>
+                           <ul class="pack__about-list  _anim-items _anim-no-hide">
+                              <li class="pack__about-item">
+                                 <div class="pack__about-text">Morning Shine
+                                    <br>Vanilla Scent Capsule</div>
+                                 <div class="pack__about-icon">X2</div>
+                              </li>
+                              <li class="pack__about-item">
+                                 <div class="pack__about-text">Sunrise - New Car
+                                    <br>Scent Capsule</div>
+                                 <div class="pack__about-icon">X2</div>
+                              </li>
+                              <li class="pack__about-item">
+                                 <div class="pack__about-text">Midnight Lavender
+                                    <br>Scent Capsule</div>
+                                 <div class="pack__about-icon">X2</div>
+                              </li>
+                           </ul>
+                           <div class="pack__note  _anim-items _anim-no-hide">* We recommend switching scent capsules
+                              anywhere between 1 to 2 months and the
+                              Active Shield filter once per 6-8 months.</div>
+                           <div class="pack__price  _anim-items _anim-no-hide">From $129</div>
+                           <div class="pack__btn-block  _anim-items _anim-no-hide">
+                              <button type="button" class="pack__btn">Add to cart</button>
+                              <div class="pack__amount">
+                                 <button type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                                 <input  type="number" min="0" max="10000" value="0" step="1" readonly  class="raz">
+                                 <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                              </div>
+                           </div>
+                           
+                        </div>
+                        <img src="./img/pack-img-2.png" alt="" class="pack__image  _anim-items _anim-no-hide">
+                     </div>
+                  </div>
+                  <div class="pack__btn-filter-block">
+                     <div class="pack__btn-filter pack__btn-filter-start _active-btn">Starter Pack</div>
+                     <div class="pack__btn-filter pack__btn-filter-pro">Pro Pack</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>  
+
+  
+      <footer class="footer">
+         <div class="_conteiner">
+            <div class="_inner">
+                <div class="footer__contacts-block  _anim-items _anim-no-hide">
+                  <div class="contacts-block__title">Anything
+                     <br>To Ask Us?</div>
+                  <a href="mailto:support@vootto.com" class="contacts-block__mail">support@vootto.com</a>
+                  <ul class="contacts-block__list">
+                     <li class="contacts-block__item">
+                        <div class="contacts-block__name">Phone</div>
+                        <a href="tel:+972 (52) 656 8038" class="contacts-block__link">+972 (52) 656 8038</a>
+                     </li>
+                     <li class="contacts-block__item">
+                        <div class="contacts-block__name">Address</div>
+                        <a href="#" class="contacts-block__link">6 kompert st. Tel-Aviv</a>
+                     </li>
+                  </ul>
+                </div>
+                <div class="form-block  _anim-items _anim-no-hide">
+                  <div class="form-block__title">Contact Us</div>
+                  <form action="#" class="form-block__form">
+                     <ul class="form-list">
+                        <li class="form-item">
+                           <div class="form-item__name">Full name</div>
+                           <input required class="form-input" placeholder="Your name" type="text" name="name">
+                        </li>
+                        <li class="form-item">
+                           <div class="form-item__name">Email</div>
+                           <input required class="form-input" placeholder="Email address" type="email" name="email" >                     
+                        </li>
+                        <li class="form-item">
+                           <div class="form-item__name">Phone</div>
+                           <input required class="form-input" placeholder="Phone number" type="tel" name="phone" >
+                        </li>
+                        <li class="form-item">
+                           <div class="form-item__name">Subject</div>
+                           <input required class="form-input" placeholder="Email address" type="email" name="SubjectEmail" > 
+                        </li>
+                        <li class="form-item form-item-message">
+                           <div class="form-item__name">Message</div>
+                           <textarea class="form-input form-input-message" placeholder="Type here your message" rows="3" cols="45" type="text" name="message" ></textarea>
+                        </li>
+                     </ul>
+                     <button class="form-input--submit" type="submit">
+                        <div class="_link-btn--text">Submit</div>
+                        <div class="_link-btn--icon"></div>
+                     </button>
+                  </form>
+                </div>
+                <div class="footer__footer-block  _anim-items _anim-no-hide">
+                  <img src="./img/Logotype_Vootto_print_board.svg" alt="" class="footer-block__logo">
+                  <div class="footer-block__text">©All Rights Reserved</div>
+                  <div class="footer-block__link-block">
+                     <a href="#" class="footer-block__link">Privacy Policy</a>
+                     <a href="#" class="footer-block__link">Terms & Conditions</a>
+                  </div>
+                </div>
+            </div>
+         </div>
+      </footer>
+            <!--FOOTER-->
+
+</div>
+
+
+
+<script src="./jquery/dist/jquery.min.js"></script>
+<script src="./js/dynamicAdapt.js"></script>
+<script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script src="./magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+
+<script src="./js/scrollmagic/minified/ScrollMagic.min.js"></script>
+<script src="./js/scrollmagic/uncompressed/gsap.js"></script>
+<script src="./js/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+
+<script src="./js/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+<script src="./js/scrollmagic/minified/plugins/TweenMax.min.js"></script>
+
+<script src="./js/foo.js"></script>
+
+<script src="./js/main.js"></script>
+
+
+</body>
+</html>
